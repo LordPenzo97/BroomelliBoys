@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "763095132821",
+    "firebase_url": "https://broomelli-boys.firebaseio.com",
+    "project_id": "broomelli-boys",
+    "storage_bucket": "broomelli-boys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763095132821:android:ebbb3a4564fb8c81",
+        "android_client_info": {
+          "package_name": "com.broomelliboys.broomelliboys.broomelliboys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763095132821-metu4iurgoo64cbvhodp5j2d6se696ht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUoRwM9foSaaheCqEQJGO1u_UMR3SjhZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

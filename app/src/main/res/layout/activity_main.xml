@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.broomelliboys.broomelliboys.broomelliboys.MainActivity"
+    android:gravity="center_horizontal"
+    android:background="#212121">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_marginTop="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/broomellis_logo" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="912-267-7075"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:fontFamily="casual"
+        android:onClick="callStore"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F44336"
+        android:text="760 Scranton RD. #101\nBrunswick, GA 31520"
+        android:fontFamily="casual"
+        android:onClick="map"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:textColor="#F44336"
+        android:text="Monday through Saturday"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:text="11:00-10:00pm"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#F44336"
+        android:text="Dine-in or Carryout"
+        android:fontFamily="casual" />
+
+    <Button
+        android:layout_marginTop="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="order now"
+        android:onClick="startOrder"
+        />
+
+    </LinearLayout>
+</ScrollView>
